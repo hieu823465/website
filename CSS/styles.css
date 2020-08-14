@@ -1,0 +1,169 @@
+/* Reset */
+*:before, *:after { content: ''; }
+hr {
+  border: 0;
+  margin: 1.35em auto;
+  max-width: 100%;
+  background-position: 50%;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #e0ece4;
+  text-align: center;
+}
+
+
+p {
+  font-family: "Arial",sans-serif;
+  text-align: center;
+  margin: auto;
+  margin-top: 0px;
+  line-height: 2;
+}
+
+h1 {
+  margin-bottom: 10px;
+  font-family: 'Satisfy', cursive;
+  color: #68b0ab;
+  font-size: 4rem;
+}
+h2 {
+  color : #68b0ab
+}
+
+.left-para{
+  width: 50%;
+  margin: 60px auto 100px auto;
+  text-align: left;
+}
+
+.right-para {
+  width: 50%;
+  margin: 60px auto 100px auto;
+  text-align: left;
+}
+.boost {
+  width: 30%;
+  float:left;
+  margin-right: 5%;
+}
+
+.hot-wing{
+  width: 30%;
+  float: right;
+}
+
+.top {
+  font-family: "Arial",sans-serif;
+  color: #68b0ab;
+  font-size: 2rem;
+}
+
+.up {
+  text-align: left;
+}
+
+.down{
+  text-align: left;
+}
+.mountain {
+  width: 60%;
+}
+
+.edit {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: relative;
+  left: 320px;
+  margin-top: 50px;
+  width:17%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 230px;
+  width: 17%;
+}
+
+.middle-container {
+  background-color: #f7f2e7;
+  padding-bottom: 5%;
+}
+
+.picture_me {
+  width: 15%;
+  margin-top: 2%;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+}
+
+.bottom-anchor {
+  display: inline-block;
+  background-color: #66BFBF;
+  width: 100%;
+  margin: 0;
+  line-height: 2;
+}
+
+.last-anchor {
+  color: #11999E;
+  margin-right: 2%;
+}
+.bookends {
+  position: relative;
+  border-width: 5px;
+  border-color: hsl(0, 0%, 50%) transparent;
+  height: 11px;
+  border-style: double;
+  width: 40%;
+}
+.bookends:before,
+.bookends:after {
+  position: absolute;
+  bottom: -3.536px;
+  width: 7.071px;
+  height: 7.071px;
+  display: block;
+  border-width: 0 7.071px 7.071px 0;
+  border-color: hsl(0, 0%, 50%);
+  border-style: double;
+  box-sizing: border-box;
+}
+.bookends:before {
+  transform: translateZ(0) rotate(-45deg);
+  left: -21px;
+}
+.bookends:after {
+  transform: translateZ(0) rotate(135deg);
+  right: -21px;
+}
+
+.contact {
+	box-shadow: 0px 0px 0px 0px #3dc21b;
+	background-color:#1dd3bd;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:18px;
+	font-weight:bold;
+	font-style:italic;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.contact:hover {
+	background-color:#e0ece4;
+}
+.contact:active {
+	position:relative;
+	top:1px;
+}
