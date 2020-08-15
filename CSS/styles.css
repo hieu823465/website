@@ -34,24 +34,24 @@ h2 {
 }
 
 .left-para{
-  width: 50%;
+  max-width: 50%;
   margin: 60px auto 100px auto;
   text-align: left;
 }
 
 .right-para {
-  width: 50%;
+  max-width: 50%;
   margin: 60px auto 200px auto;
   text-align: left;
 }
 .boost {
-  width: 30%;
+  max-width: 30%;
   float:left;
   margin-right: 5%;
 }
 
 .hot-wing{
-  width: 30%;
+  max-width: 30%;
   float: right;
 }
 
@@ -80,13 +80,13 @@ h2 {
   position: relative;
   left: 20rem;
   margin-top: 50px;
-  width:17%;
+  max-width:17%;
 }
 
 .bottom-cloud {
   position: absolute;
   left: 15.375rem;
-  width: 17%;
+  max-width: 17%;
 }
 
 .middle-container {
@@ -95,7 +95,7 @@ h2 {
 }
 
 .picture_me {
-  width: 15%;
+  max-width: 15%;
   margin-top: 2%;
 }
 
@@ -106,7 +106,7 @@ h2 {
 .bottom-anchor {
   display: inline-block;
   background-color: #66BFBF;
-  width: 100%;
+  max-width: 100%;
   margin: 0;
   line-height: 2;
 }
@@ -119,16 +119,16 @@ h2 {
   position: relative;
   border-width: 5px;
   border-color: hsl(0, 0%, 50%) transparent;
-  height: 11px;
+  max-height: 11px;
   border-style: double;
-  width: 40%;
+  max-width: 40%;
 }
 .bookends:before,
 .bookends:after {
   position: absolute;
   bottom: -3.536px;
-  width: 7.071px;
-  height: 7.071px;
+  max-width: 7.071px;
+  max-height: 7.071px;
   display: block;
   border-width: 0 7.071px 7.071px 0;
   border-color: hsl(0, 0%, 50%);
