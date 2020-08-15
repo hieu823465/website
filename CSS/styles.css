@@ -78,14 +78,14 @@ h2 {
 
 .top-cloud {
   position: relative;
-  left: 320px;
+  left: 20rem;
   margin-top: 50px;
   width:17%;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 230px;
+  left: 15.375rem;
   width: 17%;
 }
 
