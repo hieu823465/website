@@ -1,4 +1,5 @@
 /* Reset */
+
 *:before, *:after { content: ''; }
 hr {
   border: 0;
@@ -21,6 +22,7 @@ p {
   margin: auto;
   margin-top: 0px;
   line-height: 2;
+  font-size: 1rem;
 }
 
 h1 {
